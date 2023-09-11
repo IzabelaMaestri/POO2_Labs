@@ -1,6 +1,6 @@
 public class CalculadoraBinaria {
 
-    public String somar(String a, String b) {
+    public String somarBin(String a, String b) {
         StringBuilder result = new StringBuilder();
         int carry = 0;
 
@@ -29,7 +29,7 @@ public class CalculadoraBinaria {
         return result.toString();
     }
 
-    public String subtrair(String a, String b) {
+    public String subtrairBin(String a, String b) {
         if (a.equals(b)) {
             return "0";
         }
