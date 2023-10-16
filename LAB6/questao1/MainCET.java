@@ -3,19 +3,19 @@ public class MainCET {
     public static void main(String... args) {
 
         CET cet = new CET();
-        cet.init(24, 80, 30);
 
         PrefeituraUDI pref = new PrefeituraUDI();
 
-        Aeroporto aero = new Aeroporto();
-
         cet.addObserver(pref);
 
+        cet.setUmidade(30.0);
+
+        cet.setUmidade(10.0);
+
+        Aeroporto aero = new Aeroporto();
         cet.addObserver(aero);
 
-        cet.setUmidade(15);
-
-        cet.setTempo(100);
+        cet.setVento(120.0);
 
     }
 

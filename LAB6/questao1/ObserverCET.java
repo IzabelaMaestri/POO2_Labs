@@ -1,5 +1,5 @@
 public interface ObserverCET {
 
-    public void update(CET sujeitos);
+    public void update(double temp, double umidade, double vento);
     
 }
